@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="flex w-full flex-col items-center justify-center gap-4 px-6 md:items-start">
         <img src={logo} className="w-[8rem]" />
         <p className="family-inter text-center text-[1rem] font-normal text-white/60 md:text-left">
-          Treatment With Unmatched Personal Care
+          Aidcircle Foundation
         </p>
         <div className="socials flex space-x-4 text-white">
           <BsYoutube size={22} className="" />
