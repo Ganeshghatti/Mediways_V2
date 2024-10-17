@@ -186,6 +186,17 @@ const CampaignDetails = () => {
             Donation Progress:
           </h1>
           <ProgressBar target={parsedData?.amount} donated={15621} />
+          <div className="space-x-5 pt-5">
+            <button className="rounded-md border-2 border-lightBlue bg-white/70 px-5 py-1 font-semibold text-lightBlue transition hover:bg-lightBlue hover:text-white">
+              ₹ 500
+            </button>
+            <button className="rounded-md border-2 border-lightBlue bg-white/70 px-5 py-1 font-semibold text-lightBlue transition hover:bg-lightBlue hover:text-white">
+              ₹ 1000
+            </button>
+            <button className="rounded-md border-2 border-lightBlue bg-white/70 px-5 py-1 font-semibold text-lightBlue transition hover:bg-lightBlue hover:text-white">
+              ₹ 1500
+            </button>
+          </div>
         </div>
         <div className="space-y-4 rounded-lg bg-transparent p-5">
           <h1 className="family-manrope text-xl font-bold leading-7 text-darkBlue">

@@ -101,7 +101,8 @@ const Faq = () => {
             receive periodic updates whenever they post new information. We
             ensure that funds are transferred to the beneficiary based on
             relevant documents and invoices, and we maintain transparency by
-            posting updates on the fundraiser page.
+            posting updates on the fundraiser page.{" "}
+            <b>It may take upto 15 days to transfer to donar's account</b>
           </p>
         </AccordionDetails>
       </Accordion>
