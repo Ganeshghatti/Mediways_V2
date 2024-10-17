@@ -16,7 +16,10 @@ export default function RefundPolicy() {
         in the donor forms, whether completed offline or online. If you
         encounter an erroneous deduction or wish to cancel your donation, please
         submit your request within 7 working days from the date of the donation.
-        <b> It may take upto 15 days to transfer to donar's account</b>
+        <b>
+          In case of any refunds approved by Aidcircle, it will take 7 days for
+          the refund to be processed to you
+        </b>
       </p>
 
       <p className="family-poppins w-full text-[1rem] text-gray-700">
