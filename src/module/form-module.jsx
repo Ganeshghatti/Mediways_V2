@@ -32,9 +32,9 @@ const FormModule = () => {
   const { register, handleSubmit, reset } = useForm();
   const onSubmit = async (data) => {
     setIsSubmitting(true);
-    const serviceId = "service_2etdexx";
-    const templateId = "template_v8bmzvq";
-    const publicKey = "e4Ew1VeMYnj1yTU1n";
+    const serviceId = "service_qr7c8tn";
+    const templateId = "template_3se2hfb";
+    const publicKey = "6pej4psZctjKXVQ74";
 
     const templateParams = {
       campaignName: data.campaignName,
