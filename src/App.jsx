@@ -5,6 +5,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useEffect } from "react";
 import { Footer } from "./sections";
 
+import { PrimeReactProvider } from "primereact/api";
+
 import ScrollToTop from "./components/scroll-to-top";
 import { FormProvider } from "../contextprovider";
 
@@ -15,6 +17,7 @@ import RefundPolicy from "./pages/refund-policy";
 import Faq from "./pages/faq";
 import Mission from "./pages/mission";
 import CreateCampaign from "./pages/create-campaign";
+import Donation from "./pages/donation";
 
 export const callAPI = async () => {
   try {
@@ -79,24 +82,30 @@ function App() {
   }, []);
 
   return (
-    <FormProvider>
-      <Router>
-        <ScrollToTop />
-        <Navbar />
-        <Routes>
-          <Route path="/" Component={Campaign} />
-          <Route path="/about" Component={About} />
-          <Route path="/faqs" Component={Faq} />
-          <Route path="/campaigns/:link" Component={CampaignDetails} />{" "}
-          <Route path="/terms-and-conditions" Component={TermsAndConditions} />
-          <Route path="/privacy-policy" Component={PrivacyPolicy} />{" "}
-          <Route path="/refund-policy" Component={RefundPolicy} />
-          <Route path="/mission" Component={Mission} />
-          <Route path="/create-campaign" Component={CreateCampaign} />
-        </Routes>
-        <Footer />
-      </Router>
-    </FormProvider>
+    <PrimeReactProvider>
+      <FormProvider>
+        <Router>
+          <ScrollToTop />
+          <Navbar />
+          <Routes>
+            <Route path="/" Component={Campaign} />
+            <Route path="/about" Component={About} />
+            <Route path="/faqs" Component={Faq} />
+            <Route path="/campaigns/:link" Component={CampaignDetails} />{" "}
+            <Route
+              path="/terms-and-conditions"
+              Component={TermsAndConditions}
+            />
+            <Route path="/privacy-policy" Component={PrivacyPolicy} />{" "}
+            <Route path="/refund-policy" Component={RefundPolicy} />
+            <Route path="/mission" Component={Mission} />
+            <Route path="/create-campaign" Component={CreateCampaign} />
+            <Route path="/donation/:amount" Component={Donation} />
+          </Routes>
+          <Footer />
+        </Router>
+      </FormProvider>
+    </PrimeReactProvider>
   );
 }
 

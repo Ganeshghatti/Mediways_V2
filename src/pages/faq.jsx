@@ -37,12 +37,12 @@ const Faq = () => {
           id="panel1-1a-header"
         >
           <p className="family-sora text-lightblue text-base font-semibold">
-            1. What is Mediways?
+            1. What is AidCircle?
           </p>
         </AccordionSummary>
         <AccordionDetails>
           <p className="family-sora">
-            Mediways serves as a no-cost fundraising platform, enabling
+            AidCircle serves as a no-cost fundraising platform, enabling
             individuals, charities, and organizations to gather financial
             support for their personal needs, social causes, and national
             initiatives.
@@ -60,19 +60,19 @@ const Faq = () => {
           id="panel1-2a-header"
         >
           <p className="family-sora text-lightblue text-base font-semibold">
-            2. What are the causes supported on Mediways?
+            2. What are the causes supported on AidCircle?
           </p>
         </AccordionSummary>
         <AccordionDetails>
           <p className="family-sora">
-            Mediways supports a wide range of causes through crowdfunding.
+            AidCircle supports a wide range of causes through crowdfunding.
             People use the platform to raise funds for themselves, friends and
             family, favorite charities, and both national and social causes.
             These include areas such as medical expenses, education,
-            emergencies, arts, rural development, and animal rescue. Mediways
+            emergencies, arts, rural development, and animal rescue. AidCircle
             categorizes fundraisers under topics like Animals, Arts & Media,
             Children, Community, Environment, Human Rights, and more. However,
-            to maintain neutrality, Mediways does not host fundraisers related
+            to maintain neutrality, AidCircle does not host fundraisers related
             to religious or political activities, personal loans, home loans,
             financial debts, or business causes
           </p>
@@ -102,7 +102,6 @@ const Faq = () => {
             ensure that funds are transferred to the beneficiary based on
             relevant documents and invoices, and we maintain transparency by
             posting updates on the fundraiser page.{" "}
-            <b>It may take upto 15 days to transfer to donar's account</b>
           </p>
         </AccordionDetails>
       </Accordion>
@@ -128,12 +127,12 @@ const Faq = () => {
             </b>
             <br />
             <ul className="py-2">
-              <li>Log into your Mediways account.</li>
+              <li>Log into your AidCircle account.</li>
               <li>Click on the ‘Dashboard’ section.</li>
               <li>Look for your payment receipts there.</li>
             </ul>
             If you still can’t find the receipt, don’t worry! Reach out to us at
-            feedback@mymediways.in or send a message via WhatsApp to
+            feedback@myaidcircle.in or send a message via WhatsApp to
             +91-9116226875. Provide the following details:
             <ul className="py-2">
               <li>A screenshot of the payment.</li>
@@ -205,9 +204,9 @@ const Faq = () => {
         <AccordionDetails>
           <p className="family-sora">
             If your payment was debited from your bank account, but you haven’t
-            received a payment receipt from Mediways, please get in touch with
+            received a payment receipt from AidCircle, please get in touch with
             our support team. You can reach us via email at
-            feedback@mymediways.in or send us a message on WhatsApp at
+            feedback@myaidcircle.in or send us a message on WhatsApp at
             +91-9116226875. Our dedicated team will promptly track your payment
             and provide you with an update. When contacting us, please include
             the following details: <br />• Name of the donor. <br />• Email ID
@@ -240,10 +239,10 @@ const Faq = () => {
             keep the following points in mind:
             <br /> • Refunds can be issued only if the donation amount has not
             already been withdrawn by the beneficiary.
-            <br /> • We recommend reviewing Mediways’ refund policy for detailed
-            information on how refunds are handled. <br />
+            <br /> • We recommend reviewing AidCircle’ refund policy for
+            detailed information on how refunds are handled. <br />
             To initiate a refund, please reach out to us via email at
-            feedback@mediways.in or send us a message on WhatsApp at
+            feedback@aidcircle.in or send us a message on WhatsApp at
             +91-9116226875. Our dedicated team will check the status of your
             donation and assist you accordingly.
           </p>
@@ -260,7 +259,7 @@ const Faq = () => {
           id="panel1-8a-header"
         >
           <p className="family-sora text-lightblue text-base font-semibold">
-            8. Is it safe to donate on Mediways?
+            8. Is it safe to donate on AidCircle?
           </p>
         </AccordionSummary>
         <AccordionDetails>
@@ -321,7 +320,7 @@ const Faq = () => {
           id="panel1-10a-header"
         >
           <p className="family-sora text-lightblue text-base font-semibold">
-            10. What is the fees of Mediways.in?
+            10. What is the fees of AidCircle.in?
           </p>
         </AccordionSummary>
         <AccordionDetails>

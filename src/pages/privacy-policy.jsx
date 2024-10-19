@@ -5,12 +5,12 @@ export default function PrivacyPolicy() {
     <div className="flex w-full flex-col items-center gap-8 p-12 py-14 md:px-14 md:pt-20">
       <Heading title={"Privacy Policy"} className={""} />
       <p className="family-poppins text-[1rem] text-gray-700">
-        This privacy policy ("Policy") describes how Mediways ("Mediways," "we,"
-        "us," or "our") collects, safeguards, and uses personally identifiable
-        information ("Personal Information") from users ("User," "you," or
-        "your") on the Mediways.in website and associated products or services
-        (collectively, "Website" or "Services"). This Policy outlines the
-        choices you have regarding your Personal Information and how you can
+        This privacy policy ("Policy") describes how AidCircle ("AidCircle,"
+        "we," "us," or "our") collects, safeguards, and uses personally
+        identifiable information ("Personal Information") from users ("User,"
+        "you," or "your") on the AidCircle.in website and associated products or
+        services (collectively, "Website" or "Services"). This Policy outlines
+        the choices you have regarding your Personal Information and how you can
         access and update it. This Policy does not apply to practices of
         companies not owned or controlled by us, or to individuals not employed
         or managed by us.
@@ -155,7 +155,7 @@ export default function PrivacyPolicy() {
           How to Exercise These Rights
         </h1>
         <p className="family-poppins text-[1rem] text-gray-700">
-          Requests to exercise rights can be directed to Mediways through the
+          Requests to exercise rights can be directed to AidCircle through the
           contact details provided. Identity verification may be required. We
           cannot fulfill requests without verifying identity or authority.
         </p>
@@ -271,7 +271,7 @@ export default function PrivacyPolicy() {
         <p className="family-poppins text-[1rem] text-gray-700">
           For inquiries about this Policy or matters related to individual
           rights and Personal Information, please email us at
-          feedback@mediways.in.
+          feedback@aidcircle.in.
         </p>
       </div>
     </div>

@@ -1,4 +1,3 @@
-import React from "react";
 import { Heading } from "../components";
 
 export default function RefundPolicy() {
@@ -6,7 +5,7 @@ export default function RefundPolicy() {
     <div className="flex w-full flex-col items-center gap-8 p-4 md:p-12">
       <Heading title={"Refund Policy"} className={""} />
       <p className="family-poppins w-full text-[1rem] text-gray-700">
-        At Mediways, we deeply appreciate your contributions to support our
+        At AidCircle, we deeply appreciate your contributions to support our
         mission. If you need to cancel your donation, we have established a
         reliable refund policy to ensure a smooth experience for you.
       </p>
@@ -37,7 +36,7 @@ export default function RefundPolicy() {
       </p>
 
       <p className="family-poppins w-full text-[1rem] text-gray-700">
-        To request a refund, please contact us at: feedback@mediways.in
+        To request a refund, please contact us at: feedback@aidcircle.in
       </p>
     </div>
   );

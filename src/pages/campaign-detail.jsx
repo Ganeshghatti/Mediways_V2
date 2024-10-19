@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import Slider from "react-slick";
@@ -7,6 +7,8 @@ import { CampDetail } from "../data";
 import ProgressBar from "../components/progress-bar";
 
 import { FaLink, FaWhatsapp } from "react-icons/fa";
+
+import { Dialog } from "primereact/dialog";
 
 const CustomNextArrow = (props) => (
   <button
@@ -57,6 +59,8 @@ const CustomPrevArrow = (props) => (
 );
 
 const CampaignDetails = () => {
+  const [visible, setVisible] = useState();
+
   const { link } = useParams();
 
   const [parsedData, setParsedData] = useState(null);
@@ -187,15 +191,52 @@ const CampaignDetails = () => {
           </h1>
           <ProgressBar target={parsedData?.amount} donated={15621} />
           <div className="space-x-5 pt-5">
-            <button className="rounded-md border-2 border-lightBlue bg-white/70 px-5 py-1 font-semibold text-lightBlue transition hover:bg-lightBlue hover:text-white">
-              ₹ 500
-            </button>
-            <button className="rounded-md border-2 border-lightBlue bg-white/70 px-5 py-1 font-semibold text-lightBlue transition hover:bg-lightBlue hover:text-white">
-              ₹ 1000
-            </button>
-            <button className="rounded-md border-2 border-lightBlue bg-white/70 px-5 py-1 font-semibold text-lightBlue transition hover:bg-lightBlue hover:text-white">
-              ₹ 1500
-            </button>
+            <Link to={"/donation/500"}>
+              {" "}
+              <button
+                onClick={() => setVisible(true)}
+                className="rounded-md border-2 border-lightBlue bg-white/70 px-5 py-1 font-semibold text-lightBlue transition hover:bg-lightBlue hover:text-white"
+              >
+                ₹ 500
+              </button>
+            </Link>
+            <Link to={"/donation/1000"}>
+              {" "}
+              <button
+                onClick={() => setVisible(true)}
+                className="rounded-md border-2 border-lightBlue bg-white/70 px-5 py-1 font-semibold text-lightBlue transition hover:bg-lightBlue hover:text-white"
+              >
+                ₹ 1000
+              </button>
+            </Link>
+            <Link to={"/donation/1500"}>
+              {" "}
+              <button
+                onClick={() => setVisible(true)}
+                className="rounded-md border-2 border-lightBlue bg-white/70 px-5 py-1 font-semibold text-lightBlue transition hover:bg-lightBlue hover:text-white"
+              >
+                ₹ 1500
+              </button>
+            </Link>
+
+            <Dialog
+              visible={visible}
+              style={{ width: "" }}
+              onHide={() => {
+                if (!visible) return;
+                setVisible(false);
+              }}
+            >
+              <div className="flex flex-col items-center justify-center rounded-md border-2 border-lightBlue bg-white p-5">
+                <h1 className="family-poppins inline font-semibold">
+                  Please make your donation by scanning this QR Code :
+                </h1>
+                <img
+                  src="https://mediways.s3.ap-south-1.amazonaws.com/campaigns/CAMPAIGNc8356f/qrCode/qrCode.webp"
+                  className="h-72 w-72"
+                />
+              </div>
+            </Dialog>
           </div>
         </div>
         <div className="space-y-4 rounded-lg bg-transparent p-5">

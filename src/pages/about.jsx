@@ -31,11 +31,11 @@ const About = () => {
               About Us
             </h1>
             <p>
-              Welcome to Mediways.in, your trusted partner in crowdfunding for
+              Welcome to AidCircle.in, your trusted partner in crowdfunding for
               medical and social causes. Our mission is to make a meaningful
               difference in the lives of those in need by harnessing the power
-              of community support. At Mediways.in, we believe that together, we
-              can overcome the most challenging circumstances.
+              of community support. At AidCircle.in, we believe that together,
+              we can overcome the most challenging circumstances.
             </p>
           </div>
           <div>
@@ -43,7 +43,7 @@ const About = () => {
               What we do
             </h1>
             <p>
-              Mediways.in is dedicated to raising funds for individuals and
+              AidCircle.in is dedicated to raising funds for individuals and
               communities facing medical emergencies and social hardships.
               Whether it's covering medical expenses, supporting a cause close
               to your heart, or helping someone rebuild their life, we provide a

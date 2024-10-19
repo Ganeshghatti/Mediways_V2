@@ -10,8 +10,8 @@ export default function TermsAndConditions() {
       </p>
       <p className="family-poppins text-[1rem] text-gray-700">
         Please read these Terms and Conditions (“Terms”, “Terms and Conditions”)
-        carefully before using the https://mediways.in website operated by
-        Mediways (“Mediways,” “we,” “us,” or “our”). Your access to and use of
+        carefully before using the https://aidcircle.in website operated by
+        AidCircle (“AidCircle,” “we,” “us,” or “our”). Your access to and use of
         the Service is conditioned on your acceptance of and compliance with
         these Terms. These Terms apply to all visitors, users, and others who
         access or use the Service. By accessing or using the Service, you agree
@@ -57,7 +57,7 @@ export default function TermsAndConditions() {
         </h1>
         <p className="family-poppins text-[1rem] text-gray-700">
           Our Service may contain links to third-party websites or services that
-          are not owned or controlled by Mediways. We do not endorse or assume
+          are not owned or controlled by AidCircle. We do not endorse or assume
           responsibility for any third-party websites or services. You
           acknowledge and agree that we are not responsible or liable, directly
           or indirectly, for any damage or loss caused or alleged to be caused
@@ -113,7 +113,7 @@ export default function TermsAndConditions() {
           7. Limitation of Liability
         </h1>
         <p className="family-poppins text-[1rem] text-gray-700">
-          In no event shall Mediways, its directors, employees, partners, or
+          In no event shall AidCircle, its directors, employees, partners, or
           agents be liable for any indirect, incidental, special, consequential,
           or punitive damages, including without limitation, loss of profits,
           data, or other intangible losses, resulting from (a) your use or
@@ -149,7 +149,7 @@ export default function TermsAndConditions() {
         </h1>
         <p className="family-poppins text-[1rem] text-gray-700">
           If you have any questions about these Terms, please contact us at
-          feedback@mediways.in.
+          feedback@aidcircle.in.
         </p>
       </div>
     </div>
