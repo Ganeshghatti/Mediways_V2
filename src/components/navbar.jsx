@@ -56,7 +56,7 @@ const Navbar = () => {
       <div className="flex items-center justify-center">
         <img
           src={logo}
-          className="w-20 cursor-pointer object-contain"
+          className="w-36 cursor-pointer object-contain"
           onClick={() => navigate("/")}
         />
       </div>

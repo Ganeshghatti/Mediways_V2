@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import { Heading } from "../components";
 
-const Donation = (props) => {
+const Donation = () => {
   const { amount } = useParams();
 
   return (

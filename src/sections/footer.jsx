@@ -1,6 +1,6 @@
 import { FooterCol } from "../components";
 import { BsYoutube, BsLinkedin, BsTwitterX } from "react-icons/bs";
-import logo from "../../public/assets/logo.png";
+import logo from "../../public/assets/logo.svg";
 
 const Footer = () => {
   return (
